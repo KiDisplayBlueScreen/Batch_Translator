@@ -4,13 +4,13 @@ import re
 from openai import OpenAI
 
 # ================= 配置区域 =================
-API_KEY = "4c943ca2-a391-445a-963e-3880ff03854f"  # 填入你的 Key
-MODEL_ID = "deepseek-v3-2-251201" 
-BASE_URL = "https://ark.cn-beijing.volces.com/api/v3"
+API_KEY = ""  # 填入你的 Key
+MODEL_ID = "" 
+BASE_URL = ""
 
 # 请确保这里填写了正确的路径，例如 r"C:\Novels\Raw"
-INPUT_FOLDER = r"E:\Yuri\百合活少女とぼっちの姫\chapters_output"   
-OUTPUT_FOLDER = r"E:\Yuri\百合活少女とぼっちの姫\chapters_Trans"
+INPUT_FOLDER = r""   
+OUTPUT_FOLDER = r""
 # ===========================================
 
 client = OpenAI(
@@ -163,3 +163,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
